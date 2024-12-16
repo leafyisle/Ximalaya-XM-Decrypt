@@ -8,8 +8,8 @@ import glob
 import mutagen
 import tkinter as tk
 from tkinter import filedialog
-from Crypto.Cipher import AES
-from Crypto.Util.Padding import pad
+from Cryptodome.Cipher import AES
+from Cryptodome.Util.Padding import pad
 from mutagen.easyid3 import ID3
 from wasmer import Store, Module, Instance, Uint8Array, Int32Array, engine
 from wasmer_compiler_cranelift import Compiler
